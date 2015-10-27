@@ -6,3 +6,7 @@ env:
   - TERM=dumb
 
 before_install: cd code
+cache:
+  directories:
+    - $HOME/.gradle/caches/
+    - $HOME/.gradle/wrapper/
