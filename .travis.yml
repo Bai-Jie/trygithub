@@ -6,6 +6,3 @@ env:
   - TERM=dumb
 
 before_install: cd code
-
-jdk:
-  - oraclejdk8
