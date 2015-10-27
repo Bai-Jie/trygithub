@@ -3,3 +3,6 @@ language: java
 sudo: false
 
 before_install: cd code
+
+jdk:
+  - oraclejdk8
