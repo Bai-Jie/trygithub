@@ -59,11 +59,11 @@ allprojects {
     status = version.status
 
     repositories {
+        jcenter()
+        mavenCentral()
         maven {
             url "http://maven.oschina.net/content/groups/public/"
         }
-        jcenter()
-        mavenCentral()
     }
 
     tasks.findAll{ task -> [JavaCompile, Javadoc, GroovyCompile/*, Groovydoc*/].any{it.isInstance(task)} }.each{ task ->
