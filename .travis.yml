@@ -2,6 +2,9 @@ language: java
 
 sudo: false
 
+env:
+  - TERM=dumb
+
 before_install: cd code
 
 jdk:
